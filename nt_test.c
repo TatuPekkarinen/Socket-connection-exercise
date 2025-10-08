@@ -28,7 +28,6 @@ int main(int argc, char *argv[]) {
     };
 
     printf("Socket Initialized\n");    
-
         server.sin_addr.s_addr = inet_addr("1.1.1.1");
 	    server.sin_family = AF_INET;
 	    server.sin_port = htons(PORT);
